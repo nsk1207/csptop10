@@ -1,17 +1,112 @@
-## Our Team Manifesto
+## Top 10 Tv Shows of the Year
+> Here, you can find our top 10 tv shows of 2022. What do you think? 
 
-Our manifesto will be the overarching principles that we need as a team to be successful. It is as follows: 
+### 10) House Of The Dragons
 
-COMMUNICATION over COMPLETION: Things can easily be completed without communicating. However, this creates uncoordinated work, can cause individuals to do unecessary work, and can impact the general quality of the work completed. As a team, we will prioritize talking about our goals and the work we mean to complete over completing it as fast as possible without talking about what we all need to do.
+### 9) 1899
 
-LEARNING over LABOR: although it is obviously important to complete work, it is more important that we as individuals actually understand the work we are doing and why we are doing it so that we can recreate it in the future. Therefore, our team will spend time making sure that everyone actually understands the processes involved in the creation of our website to increase our capability and expertise.
+### 8) The Serpent Queen
+ 
+### 7) Tusla King
 
-ASKING FOR HELP over DOING IT YOURSELF: Although it is important for team members to be problem solvers and to complete their own work, it is important that members feel as though they are able to ask for help and don't have to struggle alone. This will strengthen team bonds and allow for a more put together website. 
+### 6) Night Sky
+
+### 5) The Devil's Hour
+
+### 4) Stranger Things Season 4
+
+### 3) Vampire Academey
+
+### 2) Wednesday
+
+### 1) Eurphoria 
 
 
-## Feature focus
-
-The 4 main features of our blog ( a living document with updates on progress )
-
-|Feature|Primary creator|Date created|Current status|Comments|
-
+<html>
+  <head>
+    <title>Show Personality Quiz</title>
+    <style>
+      /* Style the quiz container */
+      .quiz-container {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      /* Style the quiz question */
+      .quiz-question {
+        font-size: 18px;
+        margin: 20px 0;
+      }
+      /* Style the quiz choices */
+      .quiz-choice {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        border: 1px solid black;
+        cursor: pointer;
+      }
+      /* Style the quiz result */
+      .quiz-result {
+        margin: 20px 0;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Which Show Are You?</h1>
+      <!-- Quiz questions and choices will be added here -->
+      <div class="quiz-result"></div>
+    </div>
+    <script>
+      // Define the quiz questions and choices
+      const quizData = [
+        {
+          question: "Which of these shows do you prefer?",
+          choices: [
+            "House Of The Dragons (Fantasy)",
+            "1899 (Mystery)",
+            "The Serpent Queen (Action)",
+            "Tusla King (Drama)",
+            "Night Sky (Action)",
+            "The Devil's Hour (Drama)",
+            "Stranger Things Season 4 (Action)",
+            "Vampire Academy (Action)",
+            "Wednesday (Mystery)",
+            "Euphoria (Drama)"
+          ]
+        }
+      ];
+      // Set the initial quiz state
+      let currentQuestionIndex = 0;
+      let selectedChoices = [];
+      // Get the quiz container element
+      const quizContainer = document.querySelector(".quiz-container");
+      // Create a function to render the quiz
+      function renderQuiz() {
+        // Clear the quiz container
+        quizContainer.innerHTML = "";
+        // Get the current quiz data
+        const currentQuestion = quizData[currentQuestionIndex];
+        // Add the quiz question
+        const questionElement = document.createElement("div");
+        questionElement.classList.add("quiz-question");
+        questionElement.textContent = currentQuestion.question;
+        quizContainer.appendChild(questionElement);
+        // Add the quiz choices
+        for (const choice of currentQuestion.choices) {
+          const choiceElement = document.createElement("div");
+          choiceElement.classList.add("quiz-choice");
+          choiceElement.textContent = choice;
+          choiceElement.addEventListener("click", selectChoice);
+          quizContainer.appendChild(choiceElement);
+        }
+      }
+      // Create a function to select a quiz choice
+      function selectChoice() {
+        // Add the selected choice to the selected choices array
+        selectedChoices.push(this.textContent);
+        // Go to the next question
+        currentQuestionIndex++;
+        // If there are no more questions, show the result
+       </script>
