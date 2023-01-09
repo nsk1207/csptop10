@@ -24,7 +24,6 @@
       <input type="radio" name="vote" value="8) "> Call of Duty Modern Warfare (PC, Xbox and Playstation)<br>
       <input type="radio" name="vote" value="9) "> OlliOlli World (PC, Xbox, Playstation and Nintendo Switch)<br>
       <input type="radio" name="vote" value="10) "> XenoBlade Chronicles 3 (Nintendo Switch)<br>
-      <input type="radio" name="vote" value="10) "> blah blah blah blah<br>
       <input type="submit" value="Vote">
     </form>
     <br>
