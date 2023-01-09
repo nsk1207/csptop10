@@ -1,8 +1,26 @@
 ## Top 10 Games of the Year
 > Here, you can find our top 10 games of 2022. What do you think? 
 
-### #10: 
+### 10) Horizon: Forbidden West
 
+### 9) Gran Turismo 7
+
+### 8) Gothan Knights
+
+### 7) Nintendo Switch Sports
+
+### 6) Splatoon 3
+
+### 5) Return to Monkey Island
+
+### 4) LEGO Star Wars: The Skywalker Saga
+
+### 3) Sonic Frontiers
+Sonic Frontiers shows that SEGA still has the ability to make great games. An awesome open-world game with awesome gameplay to boot. Honestly shattered the expectations that people set for this series.
+### 2) God of War
+The sequel to the GOTY winning PS4 title God of War, Ragnarok smashes the high expectations set by the first game. The story picks up even more steam and the gameplay also gets a massive improvement as well.
+### 1) Elden Ring
+This massive open world RPG game is another classic by From Software. The expansive open world experience is followed by incredibly well designed bosses and encounters! Pair that with a very in-depth RPG system and you got yourself the game of the year!
 
 
 
