@@ -26,6 +26,55 @@
       <input type="radio" name="vote" value="10) "> XenoBlade Chronicles 3 (Nintendo Switch)<br>
       <input type="submit" value="Vote">
     </form>
+    
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Collapsibles</h2>
+
+<p>Description:</p>
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p>Blah Blah Blah</p>
+</div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+
+    
     <br>
     <h2>Current Vote Counts = </h2>
     <div id="vote-counts">
