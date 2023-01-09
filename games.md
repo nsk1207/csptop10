@@ -32,8 +32,8 @@
   outline: none;
   font-size: 15px;
 }
-
 </style>
+
 </head>
 <body>
 
@@ -65,7 +65,8 @@ for (i = 0; i < coll.length; i++) {
     <div id="vote-counts">
       <!-- Vote counts will be displayed here -->
     </div>
-  </body>
+</body>
+
 </html>
 
 
