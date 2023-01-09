@@ -1,12 +1,4 @@
-## Top 10 Video Games of the Year
-> Here, you can find our top 10 video games of 2022. What do you think? 
-
-
-
-
-
-
-<html>
+ <html>
   <head>
     <title>Top 10 Video Games of the Year</title>
   </head>
@@ -26,15 +18,14 @@
       <input type="radio" name="vote" value="10) "> XenoBlade Chronicles 3 (Nintendo Switch)<br>
       <input type="submit" value="Vote">
     </form>
-    
-  
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .collapsible {
   background-color: #777;
   color: white;
   cursor: pointer;
-  padding: 18px;
+  padding: 20px;
   width: 100%;
   border: none;
   text-align: left;
@@ -46,14 +37,10 @@
 </head>
 <body>
 
-<h2>Collapsibles</h2>
-
-<p>Description:</p>
-<button type="button" class="collapsible">Open Collapsible</button>
+<button type="button" class="collapsible">Not familiar with any of these games? Click here to read a brief description of each one!</button>
 <div class="content">
   <p>Blah Blah Blah</p>
 </div>
-
 
 <script>
 var coll = document.getElementsByClassName("collapsible");
@@ -73,8 +60,6 @@ for (i = 0; i < coll.length; i++) {
 </script>
 
 </body>
-
-    
     <br>
     <h2>Current Vote Counts = </h2>
     <div id="vote-counts">
